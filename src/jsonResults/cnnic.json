@@ -1,0 +1,95 @@
+{
+    "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds": {
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 20
+    },
+    "Ensures <img> elements have alternate text or a role of none or presentation": {
+        "impact": "critical",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 15
+    },
+    "Ensure button and link text is not repeated as image alternative": {
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 5
+    },
+    "Ensures every form element has a label": {
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 3
+    },
+    "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures links have discernible text": {
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag244",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 22
+    },
+    "Ensures <meta name=\"viewport\"> can scale a significant amount": {
+        "impact": "minor",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming": {
+        "impact": "critical",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag2aa",
+            "wcag144"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensure that the page, or at least one of its frames contains a level-one heading": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+}

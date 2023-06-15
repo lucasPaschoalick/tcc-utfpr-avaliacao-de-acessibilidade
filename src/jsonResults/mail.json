@@ -1,0 +1,68 @@
+{
+    "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds": {
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 10
+    },
+    "Ensures every id attribute value is unique": {
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures <iframe> and <frame> elements contain a non-empty title attribute": {
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag241",
+            "wcag412",
+            "section508",
+            "section508.22.i"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures links have discernible text": {
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag244",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 2
+    },
+    "Ensures <meta name=\"viewport\"> can scale a significant amount": {
+        "impact": "minor",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensure that the page, or at least one of its frames contains a level-one heading": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+}

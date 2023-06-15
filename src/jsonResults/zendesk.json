@@ -1,0 +1,34 @@
+{
+    "Ensures role attribute has an appropriate value for the element": {
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 5
+    },
+    "Ensures the order of headings is semantically correct": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 3
+    },
+    "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+}

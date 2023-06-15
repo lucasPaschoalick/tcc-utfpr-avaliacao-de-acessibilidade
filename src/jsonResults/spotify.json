@@ -1,0 +1,54 @@
+{
+    "Ensures role attribute has an appropriate value for the element": {
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures buttons have discernible text": {
+        "impact": "critical",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures the banner landmark is at top level": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures the page has at most one banner landmark": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming": {
+        "impact": "critical",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag2aa",
+            "wcag144"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+}

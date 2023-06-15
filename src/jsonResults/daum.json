@@ -1,0 +1,51 @@
+{
+    "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds": {
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 40
+    },
+    "Ensures <iframe> and <frame> elements contain a unique title attribute": {
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 2
+    },
+    "Ensures that every form element is not solely labeled using the title or aria-describedby attributes": {
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensure all skip links have a focusable target": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 15
+    },
+    "Ensures tabindex attribute values are not greater than 0": {
+        "impact": "serious",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 13
+    }
+}

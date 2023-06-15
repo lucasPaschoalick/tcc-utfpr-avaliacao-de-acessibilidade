@@ -1,0 +1,45 @@
+{
+    "Ensures <img> elements have alternate text or a role of none or presentation": {
+        "impact": "critical",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 2
+    },
+    "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures <meta name=\"viewport\"> can scale a significant amount": {
+        "impact": "minor",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensure that the page, or at least one of its frames contains a level-one heading": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+}

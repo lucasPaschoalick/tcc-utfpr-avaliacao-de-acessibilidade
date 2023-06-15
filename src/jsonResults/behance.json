@@ -1,0 +1,87 @@
+{
+    "Ensures ARIA attributes are allowed for an element's role": {
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures role attribute has an appropriate value for the element": {
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 67
+    },
+    "Ensures all elements with a role attribute use a valid value": {
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all ARIA attributes have valid values": {
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 44
+    },
+    "Ensure the autocomplete attribute is correct and suitable for the form field": {
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "wcag21aa",
+            "wcag135"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures every id attribute value is unique": {
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 2
+    },
+    "Ensures that every form element is not solely labeled using the title or aria-describedby attributes": {
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensure that the page, or at least one of its frames contains a level-one heading": {
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures all page content is contained by landmarks": {
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+}

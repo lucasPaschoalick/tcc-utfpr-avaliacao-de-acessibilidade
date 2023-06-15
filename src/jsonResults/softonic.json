@@ -1,0 +1,19 @@
+{
+    "Ensure the autocomplete attribute is correct and suitable for the form field": {
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "wcag21aa",
+            "wcag135"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensure button and link text is not repeated as image alternative": {
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 16
+    }
+}

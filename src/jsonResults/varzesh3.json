@@ -1,0 +1,101 @@
+{
+    "Ensures role attribute has an appropriate value for the element": {
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 13
+    },
+    "Ensures buttons have discernible text": {
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 4
+    },
+    "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent": {
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds": {
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 87
+    },
+    "Ensures every id attribute value of active elements is unique": {
+        "impact": "serious",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 3
+    },
+    "Ensures every id attribute value is unique": {
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 2
+    },
+    "Ensure button and link text is not repeated as image alternative": {
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 5
+    },
+    "Ensures every form element has a label": {
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 22
+    },
+    "Ensures <li> elements are used semantically": {
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 2
+    },
+    "Ensures the scope attribute is used correctly on tables": {
+        "impact": "moderate",
+        "tags": [
+            "cat.tables",
+            "best-practice"
+        ],
+        "num_nodes_violated": 61
+    },
+    "Ensures tabindex attribute values are not greater than 0": {
+        "impact": "serious",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 14
+    }
+}
