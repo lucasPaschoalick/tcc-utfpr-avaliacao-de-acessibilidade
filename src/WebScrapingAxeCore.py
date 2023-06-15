@@ -3,6 +3,7 @@ from axe_selenium_python import Axe
 import json
 import os
 
+# Configurações para o Driver do Chrome
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--headless")
 chrome_options.add_argument("incognito")
@@ -18,11 +19,14 @@ for i, website in enumerate(websites):
     try:
         driver.get(website)
 
+        # Aplicando os testes do Axe-core
         axe = Axe(driver)
         axe.inject()
         results = axe.run()
 
         page_results = {}
+
+        # Recuperar as informações importantes dos resultados gerados pelo Axe-core
         for violation in results['violations']:
             description = violation['description']
             impact = violation['impact']
@@ -34,23 +38,20 @@ for i, website in enumerate(websites):
                 'num_nodes_violated': nodes
             }
 
-        # Extrair o nome do site da URL
+        # Extrair o nome do site da URL para gerar o arquivo JSON com o nome do site
         site_name = website.split('.')[1]
         print(site_name)
-
-        # Gerar o nome do arquivo JSON
+        
         json_file_name = f"{site_name}.json"
 
-        # Obter o caminho absoluto para o diretório de resultados
+        # Path para salvar os resultados em arquivos JSON
         results_dir = "jsonResults"
-
-        # Criar o diretório se não existir
-        os.makedirs(results_dir, exist_ok=True)
-
-        # Obter o caminho absoluto para o arquivo JSON
+        
+        os.makedirs(results_dir, exist=True)
+        
         json_file_path = os.path.join(results_dir, json_file_name)
 
-        # Salvar os resultados no arquivo JSON correspondente ao site
+        # Salvar os resultados em um arquivo JSON correspondente ao site
         with open(json_file_path, "w") as f:
             json.dump(page_results, f, indent=4)
 
