@@ -1,0 +1,33 @@
+[
+    {
+        "description": "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <meta http-equiv=\"refresh\"> is not used",
+        "impact": "critical",
+        "tags": [
+            "cat.time",
+            "wcag2a",
+            "wcag2aaa",
+            "wcag221",
+            "wcag224",
+            "wcag325"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

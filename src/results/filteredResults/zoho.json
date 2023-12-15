@@ -1,0 +1,62 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 4
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 4
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 4
+    },
+    {
+        "description": "Ensures the order of headings is semantically correct",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 3
+    },
+    {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag244",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 7
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

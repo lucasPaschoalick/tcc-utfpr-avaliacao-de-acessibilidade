@@ -1,0 +1,71 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 5
+    },
+    {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 7
+    },
+    {
+        "description": "Ensures headings have discernible text",
+        "impact": "minor",
+        "tags": [
+            "cat.name-role-value",
+            "best-practice"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures the banner landmark is at top level",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the page has at most one banner landmark",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag244",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 4
+    }
+]

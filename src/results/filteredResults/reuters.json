@@ -1,0 +1,49 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 5
+    },
+    {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every id attribute value used in ARIA and in labels is unique",
+        "impact": "critical",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <iframe> and <frame> elements contain a unique title attribute",
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

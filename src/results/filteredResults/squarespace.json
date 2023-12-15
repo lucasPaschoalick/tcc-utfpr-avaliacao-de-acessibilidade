@@ -1,0 +1,11 @@
+[
+    {
+        "description": "Ensure all skip links have a focusable target",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

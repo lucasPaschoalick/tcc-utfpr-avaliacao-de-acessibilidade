@@ -1,0 +1,30 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures each HTML document contains a non-empty <title> element",
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag242"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

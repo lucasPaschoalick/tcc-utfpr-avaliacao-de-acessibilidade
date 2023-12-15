@@ -1,0 +1,42 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag241",
+            "wcag412",
+            "section508",
+            "section508.22.i"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

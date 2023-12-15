@@ -1,0 +1,147 @@
+[
+    {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 6
+    },
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 14
+    },
+    {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 14
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 27
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 30
+    },
+    {
+        "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag241",
+            "wcag412",
+            "section508",
+            "section508.22.i"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every HTML document has a lang attribute",
+        "impact": "serious",
+        "tags": [
+            "cat.language",
+            "wcag2a",
+            "wcag311"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "impact": "critical",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 7
+    },
+    {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag244",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 29
+    },
+    {
+        "description": "Ensures that lists are structured correctly",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 7
+    },
+    {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

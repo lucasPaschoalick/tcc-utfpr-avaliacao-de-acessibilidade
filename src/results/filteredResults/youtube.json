@@ -1,0 +1,51 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 5
+    },
+    {
+        "description": "Ensures all elements with a role attribute use a valid value",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures every id attribute value of active elements is unique",
+        "impact": "serious",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 4
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 59
+    }
+]

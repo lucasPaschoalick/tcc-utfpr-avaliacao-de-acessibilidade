@@ -1,0 +1,162 @@
+[
+    {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 3
+    },
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 4
+    },
+    {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures buttons have discernible text",
+        "impact": "critical",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 9
+    },
+    {
+        "description": "Ensures every id attribute value used in ARIA and in labels is unique",
+        "impact": "critical",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "impact": "critical",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 5
+    },
+    {
+        "description": "Ensures every form element has a label",
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 3
+    },
+    {
+        "description": "Ensures the banner landmark is at top level",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the page has at most one banner landmark",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the page has at most one contentinfo landmark",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures that lists are structured correctly",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

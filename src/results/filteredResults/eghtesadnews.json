@@ -1,0 +1,55 @@
+[
+    {
+        "description": "Ensures buttons have discernible text",
+        "impact": "critical",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure button and link text is not repeated as image alternative",
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 13
+    },
+    {
+        "description": "Ensures every form element has a label",
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "description": "Ensures all ARIA attributes have valid values",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 1
+    }
+]

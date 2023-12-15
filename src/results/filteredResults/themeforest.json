@@ -1,0 +1,40 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "wcag21aa",
+            "wcag135"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 166
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

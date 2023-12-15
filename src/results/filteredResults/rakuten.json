@@ -1,0 +1,136 @@
+[
+    {
+        "description": "Ensures ARIA attributes are allowed for an element's role",
+        "impact": "critical",
+        "tags": [
+            "cat.aria",
+            "wcag2a",
+            "wcag412"
+        ],
+        "num_nodes_violated": 6
+    },
+    {
+        "description": "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent",
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <dl> elements are structured correctly",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 8
+    },
+    {
+        "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+        "impact": "critical",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag111",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 81
+    },
+    {
+        "description": "Ensures every form element has a label",
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures links have discernible text",
+        "impact": "serious",
+        "tags": [
+            "cat.name-role-value",
+            "wcag2a",
+            "wcag412",
+            "wcag244",
+            "section508",
+            "section508.22.a"
+        ],
+        "num_nodes_violated": 56
+    },
+    {
+        "description": "Ensures that lists are structured correctly",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 6
+    },
+    {
+        "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "wcag21aa",
+            "wcag135"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure button and link text is not repeated as image alternative",
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 6
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

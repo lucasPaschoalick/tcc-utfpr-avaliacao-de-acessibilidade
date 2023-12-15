@@ -1,0 +1,31 @@
+[
+    {
+        "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "wcag21aa",
+            "wcag135"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure button and link text is not repeated as image alternative",
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 16
+    }
+]

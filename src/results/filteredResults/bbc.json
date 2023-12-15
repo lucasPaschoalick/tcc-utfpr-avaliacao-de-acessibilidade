@@ -1,0 +1,82 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 6
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag241",
+            "wcag412",
+            "section508",
+            "section508.22.i"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures every HTML document has a lang attribute",
+        "impact": "serious",
+        "tags": [
+            "cat.language",
+            "wcag2a",
+            "wcag311"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure button and link text is not repeated as image alternative",
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 12
+    },
+    {
+        "description": "Ensures that lists are structured correctly",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures <li> elements are used semantically",
+        "impact": "serious",
+        "tags": [
+            "cat.structure",
+            "wcag2a",
+            "wcag131"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures all page content is contained by landmarks",
+        "impact": "moderate",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

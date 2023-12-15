@@ -1,0 +1,29 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 8
+    },
+    {
+        "description": "Ensures headings have discernible text",
+        "impact": "minor",
+        "tags": [
+            "cat.name-role-value",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the order of headings is semantically correct",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 2
+    }
+]

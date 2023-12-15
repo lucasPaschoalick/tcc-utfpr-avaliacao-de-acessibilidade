@@ -1,0 +1,11 @@
+[
+    {
+        "description": "Ensures the order of headings is semantically correct",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

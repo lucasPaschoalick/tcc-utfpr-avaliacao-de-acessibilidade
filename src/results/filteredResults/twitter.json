@@ -1,0 +1,40 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 25
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 4
+    },
+    {
+        "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+        "impact": "critical",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "wcag2aa",
+            "wcag144"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+        "impact": "moderate",
+        "tags": [
+            "cat.semantics",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]

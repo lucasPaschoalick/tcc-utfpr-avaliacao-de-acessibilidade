@@ -1,0 +1,25 @@
+[
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures every form element has a label",
+        "impact": "serious",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 2
+    }
+]

@@ -1,0 +1,6 @@
+http://www.google.com
+http://www.youtube.com
+http://www.tmall.com
+http://www.baidu.com
+http://www.qq.com
+http://www.sohu.com

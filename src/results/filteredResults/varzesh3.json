@@ -1,0 +1,80 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 7
+    },
+    {
+        "description": "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent",
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    },
+    {
+        "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+        "impact": "serious",
+        "tags": [
+            "cat.color",
+            "wcag2aa",
+            "wcag143"
+        ],
+        "num_nodes_violated": 153
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensure button and link text is not repeated as image alternative",
+        "impact": "minor",
+        "tags": [
+            "cat.text-alternatives",
+            "best-practice"
+        ],
+        "num_nodes_violated": 10
+    },
+    {
+        "description": "Ensures every form element has a label",
+        "impact": "critical",
+        "tags": [
+            "cat.forms",
+            "wcag2a",
+            "wcag332",
+            "wcag131",
+            "section508",
+            "section508.22.n"
+        ],
+        "num_nodes_violated": 21
+    },
+    {
+        "description": "Ensures the scope attribute is used correctly on tables",
+        "impact": "moderate",
+        "tags": [
+            "cat.tables",
+            "best-practice"
+        ],
+        "num_nodes_violated": 102
+    },
+    {
+        "description": "Ensures tabindex attribute values are not greater than 0",
+        "impact": "serious",
+        "tags": [
+            "cat.keyboard",
+            "best-practice"
+        ],
+        "num_nodes_violated": 15
+    }
+]

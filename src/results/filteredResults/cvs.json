@@ -1,0 +1,21 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 2
+    },
+    {
+        "description": "Ensures each HTML document contains a non-empty <title> element",
+        "impact": "serious",
+        "tags": [
+            "cat.text-alternatives",
+            "wcag2a",
+            "wcag242"
+        ],
+        "num_nodes_violated": 1
+    }
+]

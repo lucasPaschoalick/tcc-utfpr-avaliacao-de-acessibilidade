@@ -1,0 +1,4326 @@
+{
+    "inapplicable": [
+        {
+            "description": "Ensures every accesskey attribute value is unique",
+            "help": "accesskey attribute value must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/accesskeys?application=axeAPI",
+            "id": "accesskeys",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "best-practice",
+                "cat.keyboard"
+            ]
+        },
+        {
+            "description": "Ensures ARIA attributes are allowed for an element's role",
+            "help": "Elements must only use allowed ARIA attributes",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-allowed-attr?application=axeAPI",
+            "id": "aria-allowed-attr",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures role attribute has an appropriate value for the element",
+            "help": "ARIA role must be appropriate for the element",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI",
+            "id": "aria-allowed-role",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+            "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-dpub-role-fallback?application=axeAPI",
+            "id": "aria-dpub-role-fallback",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures elements with ARIA roles have all required ARIA attributes",
+            "help": "Required ARIA attributes must be provided",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-attr?application=axeAPI",
+            "id": "aria-required-attr",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures elements with an ARIA role that require child roles contain them",
+            "help": "Certain ARIA roles must contain particular children",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-children?application=axeAPI",
+            "id": "aria-required-children",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures elements with an ARIA role that require parent roles are contained by them",
+            "help": "Certain ARIA roles must be contained by particular parents",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-required-parent?application=axeAPI",
+            "id": "aria-required-parent",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures all elements with a role attribute use a valid value",
+            "help": "ARIA roles used must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-roles?application=axeAPI",
+            "id": "aria-roles",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures <blink> elements are not used",
+            "help": "<blink> elements are deprecated and must not be used",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/blink?application=axeAPI",
+            "id": "blink",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.time-and-media",
+                "wcag2a",
+                "wcag222",
+                "section508",
+                "section508.22.j"
+            ]
+        },
+        {
+            "description": "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent",
+            "help": "Checkbox inputs with the same name attribute value must be part of a group",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/checkboxgroup?application=axeAPI",
+            "id": "checkboxgroup",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.forms",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures <dl> elements are structured correctly",
+            "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/definition-list?application=axeAPI",
+            "id": "definition-list",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+            "help": "<dt> and <dd> elements must be contained by a <dl>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/dlitem?application=axeAPI",
+            "id": "dlitem",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value used in ARIA and in labels is unique",
+            "help": "IDs used in ARIA and labels must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-aria?application=axeAPI",
+            "id": "duplicate-id-aria",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensures headings have discernible text",
+            "help": "Headings must not be empty",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI",
+            "id": "empty-heading",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.name-role-value",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures <iframe> and <frame> elements contain the axe-core script",
+            "help": "Frames must be tested with axe-core",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/frame-tested?application=axeAPI",
+            "id": "frame-tested",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.structure",
+                "review-item"
+            ]
+        },
+        {
+            "description": "Ensures <iframe> and <frame> elements contain a unique title attribute",
+            "help": "Frames must have a unique title attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/frame-title-unique?application=axeAPI",
+            "id": "frame-title-unique",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures <iframe> and <frame> elements contain a non-empty title attribute",
+            "help": "Frames must have title attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/frame-title?application=axeAPI",
+            "id": "frame-title",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag241",
+                "wcag412",
+                "section508",
+                "section508.22.i"
+            ]
+        },
+        {
+            "description": "Ensures the order of headings is semantically correct",
+            "help": "Heading levels should only increase by one",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI",
+            "id": "heading-order",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the lang attribute of the <html> element has a valid value",
+            "help": "<html> element must have a valid value for the lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/html-lang-valid?application=axeAPI",
+            "id": "html-lang-valid",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.language",
+                "wcag2a",
+                "wcag311"
+            ]
+        },
+        {
+            "description": "Ensure that HTML elements with both valid lang and xml:lang attributes agree on the base language of the page",
+            "help": "HTML elements with lang and xml:lang must have the same base language",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/html-xml-lang-mismatch?application=axeAPI",
+            "id": "html-xml-lang-mismatch",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.language",
+                "wcag2a",
+                "wcag311"
+            ]
+        },
+        {
+            "description": "Ensures <input type=\"image\"> elements have alternate text",
+            "help": "Image buttons must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/input-image-alt?application=axeAPI",
+            "id": "input-image-alt",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures the banner landmark is at top level",
+            "help": "Banner landmark must not be contained in another landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-banner-is-top-level?application=axeAPI",
+            "id": "landmark-banner-is-top-level",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the contentinfo landmark is at top level",
+            "help": "Contentinfo landmark must not be contained in another landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-contentinfo-is-top-level?application=axeAPI",
+            "id": "landmark-contentinfo-is-top-level",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the main landmark is at top level",
+            "help": "Main landmark must not be contained in another landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-main-is-top-level?application=axeAPI",
+            "id": "landmark-main-is-top-level",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures presentational <table> elements do not use <th>, <caption> elements or the summary attribute",
+            "help": "Layout tables must not use data table elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/layout-table?application=axeAPI",
+            "id": "layout-table",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.semantics",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures <marquee> elements are not used",
+            "help": "<marquee> elements are deprecated and must not be used",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/marquee?application=axeAPI",
+            "id": "marquee",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag222"
+            ]
+        },
+        {
+            "description": "Ensures <meta http-equiv=\"refresh\"> is not used",
+            "help": "Timed refresh must not exist",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-refresh?application=axeAPI",
+            "id": "meta-refresh",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.time",
+                "wcag2a",
+                "wcag2aaa",
+                "wcag221",
+                "wcag224",
+                "wcag325"
+            ]
+        },
+        {
+            "description": "Ensures <meta name=\"viewport\"> can scale a significant amount",
+            "help": "Users should be able to zoom and scale the text up to 500%",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-viewport-large?application=axeAPI",
+            "id": "meta-viewport-large",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures <meta name=\"viewport\"> does not disable text scaling and zooming",
+            "help": "Zooming and scaling must not be disabled",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-viewport?application=axeAPI",
+            "id": "meta-viewport",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.sensory-and-visual-cues",
+                "wcag2aa",
+                "wcag144"
+            ]
+        },
+        {
+            "description": "Ensures <object> elements have alternate text",
+            "help": "<object> elements must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/object-alt?application=axeAPI",
+            "id": "object-alt",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures related <input type=\"radio\"> elements have a group and that the group designation is consistent",
+            "help": "Radio inputs with the same name attribute value must be part of a group",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/radiogroup?application=axeAPI",
+            "id": "radiogroup",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.forms",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the scope attribute is used correctly on tables",
+            "help": "scope attribute should be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/scope-attr-valid?application=axeAPI",
+            "id": "scope-attr-valid",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.tables",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures that server-side image maps are not used",
+            "help": "Server-side image maps must not be used",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/server-side-image-map?application=axeAPI",
+            "id": "server-side-image-map",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag211",
+                "section508",
+                "section508.22.f"
+            ]
+        },
+        {
+            "description": "Ensure all skip links have a focusable target",
+            "help": "The skip-link target should exist and be focusable",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/skip-link?application=axeAPI",
+            "id": "skip-link",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures tabindex attribute values are not greater than 0",
+            "help": "Elements should not have tabindex greater than zero",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/tabindex?application=axeAPI",
+            "id": "tabindex",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensure that tables do not have the same summary and caption",
+            "help": "The <caption> element should not contain the same text as the summary attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/table-duplicate-name?application=axeAPI",
+            "id": "table-duplicate-name",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.tables",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensure that each cell in a table using the headers refers to another cell in that table",
+            "help": "All cells in a table element that use the headers attribute must only refer to other cells of that same table",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/td-headers-attr?application=axeAPI",
+            "id": "td-headers-attr",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.tables",
+                "wcag2a",
+                "wcag131",
+                "section508",
+                "section508.22.g"
+            ]
+        },
+        {
+            "description": "Ensure that each table header in a data table refers to data cells",
+            "help": "All th elements and elements with role=columnheader/rowheader must have data cells they describe",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/th-has-data-cells?application=axeAPI",
+            "id": "th-has-data-cells",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.tables",
+                "wcag2a",
+                "wcag131",
+                "section508",
+                "section508.22.g"
+            ]
+        },
+        {
+            "description": "Ensures lang attributes have valid values",
+            "help": "lang attribute must have a valid value",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/valid-lang?application=axeAPI",
+            "id": "valid-lang",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.language",
+                "wcag2aa",
+                "wcag312"
+            ]
+        },
+        {
+            "description": "Ensures <video> elements have captions",
+            "help": "<video> elements must have captions",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/video-caption?application=axeAPI",
+            "id": "video-caption",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag122",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures <video> elements have audio descriptions",
+            "help": "<video> elements must have an audio description track",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/video-description?application=axeAPI",
+            "id": "video-description",
+            "impact": null,
+            "nodes": [],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2aa",
+                "wcag125",
+                "section508",
+                "section508.22.b"
+            ]
+        }
+    ],
+    "incomplete": [
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.98,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#9195a3",
+                                "fontSize": "11.3pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<i class=\"c-icon arrow\">\ue613</i>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".arrow"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.84,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#f63051",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<i class=\"c-icon title-content-top-icon c-color-red c-gap-right-small\" style=\"display: ;\">\ue62e</i>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\30 \"] > .title-content.c-link.c-line-clamp1 > .title-content-top-icon.c-color-red.c-gap-right-small"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 1.95,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#faa90e",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot3\" style=\"display: ;\">3</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".c-index-single-hot3"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 3.69,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#fe2d46",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot1\" style=\"display: ;\">1</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".c-index-single-hot1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.98,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#9195a3",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot4\" style=\"display: ;\">4</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".c-index-single-hot4"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ff6600",
+                                "contrastRatio": 2.93,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "9.0pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<span class=\"title-content-mark ie-vertical c-text c-gap-left-small c-text-hot\">\u70ed</span>",
+                                    "target": [
+                                        "li[data-index=\"\\34 \"] > .c-text-hot.title-content-mark.ie-vertical"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-mark ie-vertical c-text c-gap-left-small c-text-hot\">\u70ed</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\34 \"] > .c-text-hot.title-content-mark.ie-vertical"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.93,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ff6600",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot2\" style=\"display: ;\">2</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".c-index-single-hot2"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ff6600",
+                                "contrastRatio": 2.93,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "9.0pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<span class=\"title-content-mark ie-vertical c-text c-gap-left-small c-text-hot\">\u70ed</span>",
+                                    "target": [
+                                        "li[data-index=\"\\32 \"] > .c-text-hot.title-content-mark.ie-vertical"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-mark ie-vertical c-text c-gap-left-small c-text-hot\">\u70ed</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\32 \"] > .c-text-hot.title-content-mark.ie-vertical"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 2.98,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#9195a3",
+                                "fontSize": "13.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element content is too short to determine if it is actual text content",
+                            "relatedNodes": [
+                                {
+                                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                                    "target": [
+                                        "body"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot5\" style=\"display: ;\">5</span>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        ".c-index-single-hot5"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        }
+    ],
+    "passes": [
+        {
+            "description": "Ensures <area> elements of image maps have alternate text",
+            "help": "Active <area> elements must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/area-alt?application=axeAPI",
+            "id": "area-alt",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "non-empty-title",
+                            "impact": "serious",
+                            "message": "Element has a title attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<area style=\"outline:none;\" hidefocus=\"true\" shape=\"rect\" coords=\"0,0,270,129\" href=\"//www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E7%83%AD%E6%90%9C&amp;sa=ire_dl_gh_logo_texing&amp;rsv_dl=igh_logo_pcs\" onmousedown=\"return ns_c({fm: 'tab', tab: 'felogo', rsv_platform: 'wwwhome' })\" target=\"_blank\" title=\"\u70b9\u51fb\u4e00\u4e0b\uff0c\u4e86\u89e3\u66f4\u591a\" ns_c({&#39;fm&#39;:&#39;behs&#39;,&#39;tab&#39;:&#39;bdlogo&#39;})&quot;=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "area"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures aria-hidden='true' is not present on the document body.",
+            "help": "aria-hidden='true' must not be present on the document body",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-hidden-body?application=axeAPI",
+            "id": "aria-hidden-body",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-hidden-body",
+                            "impact": "critical",
+                            "message": "No aria-hidden attribute is present on document body",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<body class=\"cos-pc\" ssr=\"n\" style=\"\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "body"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures all ARIA attributes have valid values",
+            "help": "ARIA attributes must conform to valid values",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI",
+            "id": "aria-valid-attr-value",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "aria-valid-attr-value",
+                            "impact": "critical",
+                            "message": "ARIA attribute values are valid",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-errormessage",
+                            "impact": "critical",
+                            "message": "Uses a supported aria-errormessage technique",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "any": [],
+                    "html": "<div class=\"title-text c-font-medium c-color-t\" aria-label=\"\u767e\u5ea6\u70ed\u641c\"><i class=\"c-icon\">\ue687</i><i class=\"c-icon arrow\">\ue613</i></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".title-text"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+            "help": "ARIA attributes must conform to valid names",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr?application=axeAPI",
+            "id": "aria-valid-attr",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-valid-attr",
+                            "impact": "critical",
+                            "message": "ARIA attribute name are valid",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div class=\"title-text c-font-medium c-color-t\" aria-label=\"\u767e\u5ea6\u70ed\u641c\"><i class=\"c-icon\">\ue687</i><i class=\"c-icon arrow\">\ue613</i></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".title-text"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.aria",
+                "wcag2a",
+                "wcag412"
+            ]
+        },
+        {
+            "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+            "help": "autocomplete attribute must be used correctly",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/autocomplete-valid?application=axeAPI",
+            "id": "autocomplete-valid",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "autocomplete-valid",
+                            "impact": "serious",
+                            "message": "the autocomplete attribute is correctly formatted",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "autocomplete-appropriate",
+                            "impact": "serious",
+                            "message": "the autocomplete value is on an appropriate element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "any": [],
+                    "html": "<input id=\"kw\" name=\"wd\" class=\"s_ipt\" value=\"\" maxlength=\"255\" autocomplete=\"off\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kw"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.forms",
+                "wcag21aa",
+                "wcag135"
+            ]
+        },
+        {
+            "description": "Ensures buttons have discernible text",
+            "help": "Buttons must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI",
+            "id": "button-name",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "non-empty-value",
+                            "impact": "critical",
+                            "message": "Element has a non-empty value attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input type=\"submit\" id=\"su\" value=\"\u767e\u5ea6\u4e00\u4e0b\" class=\"bg s_btn\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#su"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": null,
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<textarea id=\"s_is_result_css\" style=\"display:none;\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_is_result_css"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": null,
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<textarea id=\"s_index_off_css\" style=\"display:none;\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_index_off_css"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://news.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u65b0\u95fb</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "a[href$=\"news.baidu.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://www.hao123.com?src=from_pc\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">hao123</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://map.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u5730\u56fe</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "a[href$=\"map.baidu.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://tieba.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u8d34\u5427</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "a[href$=\"tieba.baidu.com/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://haokan.baidu.com/?sfrom=baidu-top\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u89c6\u9891</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(5)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://image.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u56fe\u7247</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "a[href$=\"image.baidu.com/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://pan.baidu.com?from=1026962h\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u7f51\u76d8</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(7)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://www.baidu.com/more/\" name=\"tj_briicon\" class=\"s-bri c-font-normal c-color-t\" target=\"_blank\">\u66f4\u591a</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".s-bri"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"s-top-right-text c-font-normal c-color-t s-top-right-new\" id=\"s-usersetting-top\" name=\"tj_settingicon\">\u8bbe\u7f6e</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-usersetting-top"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input id=\"kw\" name=\"wd\" class=\"s_ipt\" value=\"\" maxlength=\"255\" autocomplete=\"off\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kw"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<i class=\"c-icon\">\ue687</i>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".title-text > .c-icon:nth-child(1)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 5.71,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#626675",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": "shortTextContent"
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 5.71",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<i class=\"c-icon refresh-icon\">\ue619</i>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".refresh-icon"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 5.71,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#626675",
+                                "fontSize": "10.5pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 5.71",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"hot-refresh-text\">\u6362\u4e00\u6362</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        ".hot-refresh-text"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"title-content-title\">\u4e60\u8fd1\u5e73\u65f6\u9694\u516d\u5e74\u518d\u8bbf\u7f8e\u56fd</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\30 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"title-content-title\">\u5c11\u5e74\u5f3a\u3001\u9752\u5e74\u5f3a\u5219\u4e2d\u56fd\u5f3a</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\33 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"title-content-title\">\u4e2d\u7f8e\u5143\u9996\u4f1a\u6664\u5373\u5c06\u4e3e\u884c</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\31 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"title-content-title\">\u5927\u7ea640%\u7684\u764c\u75c7\u53ef\u4ee5\u907f\u514d</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\34 \"] > .tag-width.title-content.c-link > .title-content-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"title-content-title\">\u4e2d\u7f8e\u5143\u9996\u4f1a\u6664\u9884\u8ba1\u65f6\u957f3\u52304\u5c0f\u65f6</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\32 \"] > .tag-width.title-content.c-link > .title-content-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#ffffff",
+                                "contrastRatio": 15.9,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#222222",
+                                "fontSize": "12.0pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has sufficient color contrast of 15.9",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"title-content-title\">\u7f8e\u52a0\u5dde\u5e02\u957f\uff1a\u6211\u4eec\u628a\u4e2d\u56fd\u5f53\u5144\u5f1f</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\35 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": null,
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<textarea id=\"hotsearch_data\" style=\"display:none;\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#hotsearch_data"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        },
+        {
+            "description": "Ensures each HTML document contains a non-empty <title> element",
+            "help": "Documents must have <title> element to aid in navigation",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/document-title?application=axeAPI",
+            "id": "document-title",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "doc-has-title",
+                            "impact": "serious",
+                            "message": "Document has a non-empty <title> element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<html>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag242"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value of active elements is unique",
+            "help": "IDs of active elements must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-active?application=axeAPI",
+            "id": "duplicate-id-active",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s-top-loginbtn",
+                            "id": "duplicate-id-active",
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"s-top-login-btn c-btn c-btn-primary c-btn-mini lb\" style=\"position:relative;overflow: visible;\" id=\"s-top-loginbtn\" href=\"https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F&amp;sms=5\" name=\"tj_login\" onclick=\"return false;\">\u767b\u5f55</a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-top-loginbtn"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "kw",
+                            "id": "duplicate-id-active",
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input id=\"kw\" name=\"wd\" class=\"s_ipt\" value=\"\" maxlength=\"255\" autocomplete=\"off\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#kw"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "su",
+                            "id": "duplicate-id-active",
+                            "impact": "serious",
+                            "message": "Document has no active elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<input type=\"submit\" id=\"su\" value=\"\u767e\u5ea6\u4e00\u4e0b\" class=\"bg s_btn\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#su"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensures every id attribute value is unique",
+            "help": "id attribute value must be unique",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id?application=axeAPI",
+            "id": "duplicate-id",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "topmenuloc-data",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"application/json\" id=\"topmenuloc-data\" data-for=\"result-data\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#topmenuloc-data"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "underbox-tips-data",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"application/json\" id=\"underbox-tips-data\" data-for=\"result-data\">\n    {\"isBdWordLinkRecallFromGuide\":\"\",\"bdWordLinkGuideShowUrl\":\"\",\"bdWordLinkGuideClickUrl\":\"\"}</script>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#underbox-tips-data"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "top-right-operate-data",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"application/json\" id=\"top-right-operate-data\" data-for=\"result-data\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#top-right-operate-data"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "guarantee-popper-style",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<style id=\"guarantee-popper-style\" type=\"text/css\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#guarantee-popper-style"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_is_result_css",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<textarea id=\"s_is_result_css\" style=\"display:none;\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_is_result_css"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_index_off_css",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<textarea id=\"s_index_off_css\" style=\"display:none;\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_index_off_css"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"wrapper\" class=\"wrapper_new\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "head",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"head\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#head"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_top_wrap",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s_top_wrap\" class=\"s-top-wrap s-isindex-wrap \"><div class=\"s-top-nav\"></div><div class=\"s-center-box\"></div></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_top_wrap"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "u",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"u\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#u"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s-top-left",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s-top-left\" class=\"s-top-left-new s-isindex-wrap\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-top-left"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s-top-more",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div class=\"s-top-more\" id=\"s-top-more\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-top-more"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "u1",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"u1\" class=\"s-top-right s-isindex-wrap\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#u1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s-usersetting-top",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span class=\"s-top-right-text c-font-normal c-color-t s-top-right-new\" id=\"s-usersetting-top\" name=\"tj_settingicon\">\u8bbe\u7f6e</span>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-usersetting-top"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s-user-setting-menu",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s-user-setting-menu\" class=\"s-top-userset-menu c-floating-box c-font-normal \"><div class=\"s-user-setting-pfmenu\"></div><a class=\"s-set-hotsearch set-hide\" href=\"javascript:;\">\u5173\u95ed\u70ed\u641c</a><a class=\"s-set-hotsearch set-show\" href=\"javascript:;\" style=\"display: none;\">\u5f00\u542f\u70ed\u641c</a></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-user-setting-menu"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "head_wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"head_wrapper\" class=\"head_wrapper s-isindex-wrap nologin\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#head_wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "lg",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"lg\" class=\"s-p-top\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#lg"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_lg_img",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<img hidefocus=\"true\" id=\"s_lg_img\" class=\"index-logo-src\" src=\"//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png\" width=\"270\" height=\"129\" onerror=\"this.src='//www.baidu.com/img/flexible/logo/pc/index.png';this.onerror=null;\" usemap=\"#mp\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_lg_img"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_lg_img_new",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<img hidefocus=\"true\" id=\"s_lg_img_new\" class=\"index-logo-srcnew\" src=\"//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png\" width=\"270\" height=\"129\" onerror=\"this.src='//www.baidu.com/img/flexible/logo/pc/index@2.png';this.onerror=null;\" usemap=\"#mp\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_lg_img_new"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_lg_img_aging",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<img hidefocus=\"true\" id=\"s_lg_img_aging\" class=\"index-logo-aging-tools\" src=\"//www.baidu.com/img/PCfb_5bf082d29588c07f842ccde3f97243ea.png\" width=\"270\" height=\"129\" onerror=\"this.src='//www.baidu.com/img/flexible/logo/pc/index@2.png';this.onerror=null;\" usemap=\"#mp\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_lg_img_aging"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "result_logo",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"/\" id=\"result_logo\" onmousedown=\"return c({'fm':'tab','tab':'logo'})\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#result_logo"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "form",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<form id=\"form\" name=\"f\" action=\"/s\" class=\"fm  has-soutu\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#form"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "mHolder",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<span id=\"mHolder\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#mHolder"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "mCon",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"mCon\"><span>\n                                    \u8f93\u5165\u6cd5</span></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#mCon"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "mMenu",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<ul id=\"mMenu\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#mMenu"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "m",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"m\" class=\"\n                    under-searchbox-tips\n                    \n                        s_lm_hide\n                    \n                \"><div id=\"lm-new\"></div></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#m"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "lm-new",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"lm-new\"></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#lm-new"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s-hotsearch-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s-hotsearch-wrapper\" class=\"s-isindex-wrap s-hotsearch-wrapper\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s-hotsearch-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "hotsearch-refresh-btn",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a id=\"hotsearch-refresh-btn\" class=\"hot-refresh c-font-normal c-color-gray2\"><i class=\"c-icon refresh-icon\">\ue619</i><span class=\"hot-refresh-text\">\u6362\u4e00\u6362</span></a>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#hotsearch-refresh-btn"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "hotsearch-content-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<ul class=\"s-hotsearch-content\" id=\"hotsearch-content-wrapper\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#hotsearch-content-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "hotsearch_data",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<textarea id=\"hotsearch_data\" style=\"display:none;\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#hotsearch_data"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_wrap",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s_wrap\" class=\"s-isindex-wrap\"><div id=\"s_main\" class=\"main clearfix \"></div></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_wrap"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_main",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s_main\" class=\"main clearfix \"></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_main"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "bottom_layer",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"bottom_layer\" class=\"s-bottom-layer s-isindex-wrap\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#bottom_layer"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "bottom_space",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"bottom_space\" class=\"s-bottom-space\"></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#bottom_space"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "promote_login_box",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<script type=\"application/json\" id=\"promote_login_box\">\n    []\n</script>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#promote_login_box"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_tab",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div class=\"s_tab \" id=\"s_tab\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_tab"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_side_wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s_side_wrapper\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_side_wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "s_qrcode_nologin",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"s_qrcode_nologin\" class=\"qrcode-nologin side-entry\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#s_qrcode_nologin"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "qrcode-login-wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"qrcode-login-wrapper\"></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#qrcode-login-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "wrapper_wrapper",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div id=\"wrapper_wrapper\"></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#wrapper_wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": "c-tips-container",
+                            "id": "duplicate-id",
+                            "impact": "minor",
+                            "message": "Document has no static elements that share the same id attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<div class=\"c-tips-container\" id=\"c-tips-container\"></div>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "#c-tips-container"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.parsing",
+                "wcag2a",
+                "wcag411"
+            ]
+        },
+        {
+            "description": "Ensure button and link text is not repeated as image alternative",
+            "help": "Text of buttons and links should not be repeated in the image alternative",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-redundant-alt?application=axeAPI",
+            "id": "image-redundant-alt",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"http://news.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u65b0\u95fb</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"news.baidu.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://www.hao123.com?src=from_pc\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">hao123</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"http://map.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u5730\u56fe</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"map.baidu.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"http://tieba.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u8d34\u5427</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"tieba.baidu.com/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://haokan.baidu.com/?sfrom=baidu-top\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u89c6\u9891</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(5)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"http://image.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u56fe\u7247</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"image.baidu.com/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"https://pan.baidu.com?from=1026962h\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u7f51\u76d8</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(7)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a href=\"http://www.baidu.com/more/\" name=\"tj_briicon\" class=\"s-bri c-font-normal c-color-t\" target=\"_blank\">\u66f4\u591a</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".s-bri"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"operate-wrapper operate-wrapper-nologin\" href=\"https://yiyan.baidu.com/?from=baidu_pc_index\" target=\"__blank\"><div class=\"operate-animate\"></div><div class=\"operate-image\"></div></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".operate-wrapper"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"s-top-login-btn c-btn c-btn-primary c-btn-mini lb\" style=\"position:relative;overflow: visible;\" id=\"s-top-loginbtn\" href=\"https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F&amp;sms=5\" name=\"tj_login\" onclick=\"return false;\">\u767b\u5f55</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#s-top-loginbtn"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"hot-title\" href=\"https://top.baidu.com/board?platform=pc&amp;sa=pcindex_entry\" target=\"_blank\"><div class=\"title-text c-font-medium c-color-t\" aria-label=\"\u767e\u5ea6\u70ed\u641c\"><i class=\"c-icon\">\ue687</i><i class=\"c-icon arrow\">\ue613</i></div></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".hot-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li class=\"hotsearch-item odd\" data-index=\"0\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\30 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%97%B6%E9%9A%94%E5%85%AD%E5%B9%B4%E5%86%8D%E8%AE%BF%E7%BE%8E%E5%9B%BD&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\30 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li class=\"hotsearch-item even\" data-index=\"3\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\33 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E5%B0%91%E5%B9%B4%E5%BC%BA%E3%80%81%E9%9D%92%E5%B9%B4%E5%BC%BA%E5%88%99%E4%B8%AD%E5%9B%BD%E5%BC%BA&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\33 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li class=\"hotsearch-item odd\" data-index=\"1\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\31 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%8D%B3%E5%B0%86%E4%B8%BE%E8%A1%8C&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\31 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li class=\"hotsearch-item even\" data-index=\"4\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\34 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"title-content tag-width c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E5%A4%A7%E7%BA%A640%25%E7%9A%84%E7%99%8C%E7%97%87%E5%8F%AF%E4%BB%A5%E9%81%BF%E5%85%8D&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\34 \"] > .tag-width.title-content.c-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li class=\"hotsearch-item odd\" data-index=\"2\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\32 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"title-content tag-width c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E9%A2%84%E8%AE%A1%E6%97%B6%E9%95%BF3%E5%88%B04%E5%B0%8F%E6%97%B6&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\32 \"] > .tag-width.title-content.c-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<li class=\"hotsearch-item even\" data-index=\"5\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\35 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E7%BE%8E%E5%8A%A0%E5%B7%9E%E5%B8%82%E9%95%BF%EF%BC%9A%E6%88%91%E4%BB%AC%E6%8A%8A%E4%B8%AD%E5%9B%BD%E5%BD%93%E5%85%84%E5%BC%9F&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "duplicate-img-label",
+                            "impact": "minor",
+                            "message": "Element does not duplicate existing text in <img> alt text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\35 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures that every form element is not solely labeled using the title or aria-describedby attributes",
+            "help": "Form elements should have a visible label",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI",
+            "id": "label-title-only",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<input id=\"kw\" name=\"wd\" class=\"s_ipt\" value=\"\" maxlength=\"255\" autocomplete=\"off\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "title-only",
+                            "impact": "serious",
+                            "message": "Form element does not solely use title attribute for its label",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#kw"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.forms",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the page has at most one banner landmark",
+            "help": "Page must not have more than one banner landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-no-duplicate-banner?application=axeAPI",
+            "id": "landmark-no-duplicate-banner",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "page-no-duplicate-banner",
+                            "impact": "moderate",
+                            "message": "Document has no more than one banner landmark",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<html>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures the page has at most one contentinfo landmark",
+            "help": "Page must not have more than one contentinfo landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-no-duplicate-contentinfo?application=axeAPI",
+            "id": "landmark-no-duplicate-contentinfo",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "page-no-duplicate-contentinfo",
+                            "impact": "moderate",
+                            "message": "Page does not have more than one contentinfo landmark",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<html>",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI",
+            "id": "link-name",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://news.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u65b0\u95fb</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"news.baidu.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://www.hao123.com?src=from_pc\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">hao123</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(2)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://map.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u5730\u56fe</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"map.baidu.com\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://tieba.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u8d34\u5427</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"tieba.baidu.com/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://haokan.baidu.com/?sfrom=baidu-top\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u89c6\u9891</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(5)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://image.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u56fe\u7247</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "a[href$=\"image.baidu.com/\"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"https://pan.baidu.com?from=1026962h\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u7f51\u76d8</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".mnav.c-color-t.c-font-normal:nth-child(7)"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a href=\"http://www.baidu.com/more/\" name=\"tj_briicon\" class=\"s-bri c-font-normal c-color-t\" target=\"_blank\">\u66f4\u591a</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".s-bri"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"s-top-login-btn c-btn c-btn-primary c-btn-mini lb\" style=\"position:relative;overflow: visible;\" id=\"s-top-loginbtn\" href=\"https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F&amp;sms=5\" name=\"tj_login\" onclick=\"return false;\">\u767b\u5f55</a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#s-top-loginbtn"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"hot-title\" href=\"https://top.baidu.com/board?platform=pc&amp;sa=pcindex_entry\" target=\"_blank\"><div class=\"title-text c-font-medium c-color-t\" aria-label=\"\u767e\u5ea6\u70ed\u641c\"><i class=\"c-icon\">\ue687</i><i class=\"c-icon arrow\">\ue613</i></div></a>",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".hot-title"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%97%B6%E9%9A%94%E5%85%AD%E5%B9%B4%E5%86%8D%E8%AE%BF%E7%BE%8E%E5%9B%BD&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\30 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E5%B0%91%E5%B9%B4%E5%BC%BA%E3%80%81%E9%9D%92%E5%B9%B4%E5%BC%BA%E5%88%99%E4%B8%AD%E5%9B%BD%E5%BC%BA&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\33 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%8D%B3%E5%B0%86%E4%B8%BE%E8%A1%8C&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\31 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"title-content tag-width c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E5%A4%A7%E7%BA%A640%25%E7%9A%84%E7%99%8C%E7%97%87%E5%8F%AF%E4%BB%A5%E9%81%BF%E5%85%8D&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\34 \"] > .tag-width.title-content.c-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"title-content tag-width c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E9%A2%84%E8%AE%A1%E6%97%B6%E9%95%BF3%E5%88%B04%E5%B0%8F%E6%97%B6&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\32 \"] > .tag-width.title-content.c-link"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element has text that is visible to screen readers",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<a class=\"title-content  c-link c-font-medium c-line-clamp1\" href=\"https://www.baidu.com/s?wd=%E7%BE%8E%E5%8A%A0%E5%B7%9E%E5%B8%82%E9%95%BF%EF%BC%9A%E6%88%91%E4%BB%AC%E6%8A%8A%E4%B8%AD%E5%9B%BD%E5%BD%93%E5%85%84%E5%BC%9F&amp;sa=fyb_n_homepage&amp;rsv_dl=fyb_n_homepage&amp;from=super&amp;cl=3&amp;tn=baidutop10&amp;fr=top1000&amp;rsv_idx=2&amp;hisfilter=1\" target=\"_blank\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is not in tab order or has accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "li[data-index=\"\\35 \"] > .title-content.c-link.c-line-clamp1"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "wcag244",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures that lists are structured correctly",
+            "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/list?application=axeAPI",
+            "id": "list",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [],
+                    "html": "<ul class=\"s-hotsearch-content\" id=\"hotsearch-content-wrapper\">",
+                    "impact": null,
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "only-listitems",
+                            "impact": "serious",
+                            "message": "List element only has direct children that are allowed inside <li> elements",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        "#hotsearch-content-wrapper"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131"
+            ]
+        },
+        {
+            "description": "Ensures <li> elements are used semantically",
+            "help": "<li> elements must be contained in a <ul> or <ol>",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/listitem?application=axeAPI",
+            "id": "listitem",
+            "impact": null,
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li class=\"hotsearch-item odd\" data-index=\"0\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\30 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li class=\"hotsearch-item even\" data-index=\"3\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\33 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li class=\"hotsearch-item odd\" data-index=\"1\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\31 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li class=\"hotsearch-item even\" data-index=\"4\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\34 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li class=\"hotsearch-item odd\" data-index=\"2\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\32 \"]"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "listitem",
+                            "impact": "serious",
+                            "message": "List item has a <ul>, <ol> or role=\"list\" parent element",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "html": "<li class=\"hotsearch-item even\" data-index=\"5\">",
+                    "impact": null,
+                    "none": [],
+                    "target": [
+                        "li[data-index=\"\\35 \"]"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.structure",
+                "wcag2a",
+                "wcag131"
+            ]
+        }
+    ],
+    "timestamp": "2023-11-15T18:16:32.042Z",
+    "url": "http://www.baidu.com/",
+    "violations": [
+        {
+            "description": "Ensures each page has at least one mechanism for a user to bypass navigation and jump straight to the content",
+            "help": "Page must have means to bypass repeated blocks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/bypass?application=axeAPI",
+            "id": "bypass",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "internal-link-present",
+                            "impact": "serious",
+                            "message": "No valid skip link found",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "header-present",
+                            "impact": "serious",
+                            "message": "Page does not have a header",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "landmark",
+                            "impact": "serious",
+                            "message": "Page does not have a landmark region",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  No valid skip link found\n  Page does not have a header\n  Page does not have a landmark region",
+                    "html": "<html>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.keyboard",
+                "wcag2a",
+                "wcag241",
+                "section508",
+                "section508.22.o"
+            ]
+        },
+        {
+            "description": "Ensures the contrast between foreground and background colors meets WCAG 2 AA contrast ratio thresholds",
+            "help": "Elements must have sufficient color contrast",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI",
+            "id": "color-contrast",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#4e6ef2",
+                                "contrastRatio": 4.34,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "9.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 4.34 (foreground color: #ffffff, background color: #4e6ef2, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<a class=\"s-top-login-btn c-btn c-btn-primary c-btn-mini lb\" style=\"position:relative;overflow: visible;\" id=\"s-top-loginbtn\" href=\"https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F&amp;sms=5\" name=\"tj_login\" onclick=\"return false;\">\u767b\u5f55</a>",
+                                    "target": [
+                                        "#s-top-loginbtn"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #ffffff, background color: #4e6ef2, font size: 9.8pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<a class=\"s-top-login-btn c-btn c-btn-primary c-btn-mini lb\" style=\"position:relative;overflow: visible;\" id=\"s-top-loginbtn\" href=\"https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F&amp;sms=5\" name=\"tj_login\" onclick=\"return false;\">\u767b\u5f55</a>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "#s-top-loginbtn"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": {
+                                "bgColor": "#4e6ef2",
+                                "contrastRatio": 4.34,
+                                "expectedContrastRatio": "4.5:1",
+                                "fgColor": "#ffffff",
+                                "fontSize": "12.8pt",
+                                "fontWeight": "normal",
+                                "missingData": null
+                            },
+                            "id": "color-contrast",
+                            "impact": "serious",
+                            "message": "Element has insufficient color contrast of 4.34 (foreground color: #ffffff, background color: #4e6ef2, font size: 12.8pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                            "relatedNodes": [
+                                {
+                                    "html": "<input type=\"submit\" id=\"su\" value=\"\u767e\u5ea6\u4e00\u4e0b\" class=\"bg s_btn\">",
+                                    "target": [
+                                        "#su"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.34 (foreground color: #ffffff, background color: #4e6ef2, font size: 12.8pt, font weight: normal). Expected contrast ratio of 4.5:1",
+                    "html": "<input type=\"submit\" id=\"su\" value=\"\u767e\u5ea6\u4e00\u4e0b\" class=\"bg s_btn\">",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "#su"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.color",
+                "wcag2aa",
+                "wcag143"
+            ]
+        },
+        {
+            "description": "Ensures every HTML document has a lang attribute",
+            "help": "<html> element must have a lang attribute",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/html-has-lang?application=axeAPI",
+            "id": "html-has-lang",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-lang",
+                            "impact": "serious",
+                            "message": "The <html> element does not have a lang attribute",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  The <html> element does not have a lang attribute",
+                    "html": "<html>",
+                    "impact": "serious",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.language",
+                "wcag2a",
+                "wcag311"
+            ]
+        },
+        {
+            "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+            "help": "Images must have alternate text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI",
+            "id": "image-alt",
+            "impact": "critical",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-alt",
+                            "impact": "critical",
+                            "message": "Element does not have an alt attribute",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "non-empty-title",
+                            "impact": "serious",
+                            "message": "Element has no title attribute or the title attribute is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-presentation",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-none",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"none\"",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+                    "html": "<img hidefocus=\"true\" id=\"s_lg_img\" class=\"index-logo-src\" src=\"//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png\" width=\"270\" height=\"129\" onerror=\"this.src='//www.baidu.com/img/flexible/logo/pc/index.png';this.onerror=null;\" usemap=\"#mp\">",
+                    "impact": "critical",
+                    "none": [],
+                    "target": [
+                        "#s_lg_img"
+                    ]
+                },
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-alt",
+                            "impact": "critical",
+                            "message": "Element does not have an alt attribute",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "non-empty-title",
+                            "impact": "serious",
+                            "message": "Element has no title attribute or the title attribute is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-presentation",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-none",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"none\"",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute or the title attribute is empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+                    "html": "<img class=\"icon\" src=\"https://pss.bdstatic.com/static/superman/img/qrcode/qrcode@2x-daf987ad02.png\">",
+                    "impact": "critical",
+                    "none": [],
+                    "target": [
+                        ".icon"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.text-alternatives",
+                "wcag2a",
+                "wcag111",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensures every form element has a label",
+            "help": "Form elements must have labels",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI",
+            "id": "label",
+            "impact": "critical",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "implicit-label",
+                            "impact": "critical",
+                            "message": "Form element does not have an implicit (wrapped) <label>",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "explicit-label",
+                            "impact": "critical",
+                            "message": "Form element does not have an explicit <label>",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "non-empty-title",
+                            "impact": "serious",
+                            "message": "Element has no title attribute or the title attribute is empty",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  Element has no title attribute or the title attribute is empty",
+                    "html": "<input id=\"kw\" name=\"wd\" class=\"s_ipt\" value=\"\" maxlength=\"255\" autocomplete=\"off\">",
+                    "impact": "critical",
+                    "none": [],
+                    "target": [
+                        "#kw"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.forms",
+                "wcag2a",
+                "wcag332",
+                "wcag131",
+                "section508",
+                "section508.22.n"
+            ]
+        },
+        {
+            "description": "Ensures the page has only one main landmark and each iframe in the page has at most one main landmark",
+            "help": "Page must have one main landmark",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-one-main?application=axeAPI",
+            "id": "landmark-one-main",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "page-has-main",
+                            "impact": "moderate",
+                            "message": "Page does not have a main landmark",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "any": [],
+                    "failureSummary": "Fix all of the following:\n  Page does not have a main landmark",
+                    "html": "<html>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures links have discernible text",
+            "help": "Links must have discernible text",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI",
+            "id": "link-name",
+            "impact": "serious",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "has-visible-text",
+                            "impact": "minor",
+                            "message": "Element does not have text that is visible to screen readers",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-label",
+                            "impact": "serious",
+                            "message": "aria-label attribute does not exist or is empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "aria-labelledby",
+                            "impact": "serious",
+                            "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-presentation",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"presentation\"",
+                            "relatedNodes": []
+                        },
+                        {
+                            "data": null,
+                            "id": "role-none",
+                            "impact": "minor",
+                            "message": "Element's default semantics were not overridden with role=\"none\"",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"presentation\"\n  Element's default semantics were not overridden with role=\"none\"",
+                    "html": "<a class=\"operate-wrapper operate-wrapper-nologin\" href=\"https://yiyan.baidu.com/?from=baidu_pc_index\" target=\"__blank\"><div class=\"operate-animate\"></div><div class=\"operate-image\"></div></a>",
+                    "impact": "serious",
+                    "none": [
+                        {
+                            "data": null,
+                            "id": "focusable-no-name",
+                            "impact": "serious",
+                            "message": "Element is in tab order and does not have accessible text",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "target": [
+                        ".operate-wrapper"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.name-role-value",
+                "wcag2a",
+                "wcag412",
+                "wcag244",
+                "section508",
+                "section508.22.a"
+            ]
+        },
+        {
+            "description": "Ensure that the page, or at least one of its frames contains a level-one heading",
+            "help": "Page must contain a level-one heading",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/page-has-heading-one?application=axeAPI",
+            "id": "page-has-heading-one",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [
+                        {
+                            "data": null,
+                            "id": "page-has-heading-one",
+                            "impact": "moderate",
+                            "message": "Page must have a level-one heading",
+                            "relatedNodes": []
+                        }
+                    ],
+                    "any": [],
+                    "failureSummary": "Fix all of the following:\n  Page must have a level-one heading",
+                    "html": "<html>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.semantics",
+                "best-practice"
+            ]
+        },
+        {
+            "description": "Ensures all page content is contained by landmarks",
+            "help": "All page content must be contained by landmarks",
+            "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI",
+            "id": "region",
+            "impact": "moderate",
+            "nodes": [
+                {
+                    "all": [],
+                    "any": [
+                        {
+                            "data": null,
+                            "id": "region",
+                            "impact": "moderate",
+                            "message": "Some page content is not contained by landmarks",
+                            "relatedNodes": [
+                                {
+                                    "html": "<a href=\"http://news.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u65b0\u95fb</a>",
+                                    "target": [
+                                        "a[href$=\"news.baidu.com\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"https://www.hao123.com?src=from_pc\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">hao123</a>",
+                                    "target": [
+                                        ".mnav.c-color-t.c-font-normal:nth-child(2)"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"http://map.baidu.com\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u5730\u56fe</a>",
+                                    "target": [
+                                        "a[href$=\"map.baidu.com\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"http://tieba.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u8d34\u5427</a>",
+                                    "target": [
+                                        "a[href$=\"tieba.baidu.com/\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"https://haokan.baidu.com/?sfrom=baidu-top\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u89c6\u9891</a>",
+                                    "target": [
+                                        ".mnav.c-color-t.c-font-normal:nth-child(5)"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"http://image.baidu.com/\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u56fe\u7247</a>",
+                                    "target": [
+                                        "a[href$=\"image.baidu.com/\"]"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"https://pan.baidu.com?from=1026962h\" target=\"_blank\" class=\"mnav c-font-normal c-color-t\">\u7f51\u76d8</a>",
+                                    "target": [
+                                        ".mnav.c-color-t.c-font-normal:nth-child(7)"
+                                    ]
+                                },
+                                {
+                                    "html": "<a href=\"http://www.baidu.com/more/\" name=\"tj_briicon\" class=\"s-bri c-font-normal c-color-t\" target=\"_blank\">\u66f4\u591a</a>",
+                                    "target": [
+                                        ".s-bri"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"s-top-right-text c-font-normal c-color-t s-top-right-new\" id=\"s-usersetting-top\" name=\"tj_settingicon\">\u8bbe\u7f6e</span>",
+                                    "target": [
+                                        "#s-usersetting-top"
+                                    ]
+                                },
+                                {
+                                    "html": "<a class=\"s-top-login-btn c-btn c-btn-primary c-btn-mini lb\" style=\"position:relative;overflow: visible;\" id=\"s-top-loginbtn\" href=\"https://passport.baidu.com/v2/?login&amp;tpl=mn&amp;u=http%3A%2F%2Fwww.baidu.com%2F&amp;sms=5\" name=\"tj_login\" onclick=\"return false;\">\u767b\u5f55</a>",
+                                    "target": [
+                                        "#s-top-loginbtn"
+                                    ]
+                                },
+                                {
+                                    "html": "<img hidefocus=\"true\" id=\"s_lg_img\" class=\"index-logo-src\" src=\"//www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png\" width=\"270\" height=\"129\" onerror=\"this.src='//www.baidu.com/img/flexible/logo/pc/index.png';this.onerror=null;\" usemap=\"#mp\">",
+                                    "target": [
+                                        "#s_lg_img"
+                                    ]
+                                },
+                                {
+                                    "html": "<input id=\"kw\" name=\"wd\" class=\"s_ipt\" value=\"\" maxlength=\"255\" autocomplete=\"off\">",
+                                    "target": [
+                                        "#kw"
+                                    ]
+                                },
+                                {
+                                    "html": "<input type=\"submit\" id=\"su\" value=\"\u767e\u5ea6\u4e00\u4e0b\" class=\"bg s_btn\">",
+                                    "target": [
+                                        "#su"
+                                    ]
+                                },
+                                {
+                                    "html": "<div class=\"title-text c-font-medium c-color-t\" aria-label=\"\u767e\u5ea6\u70ed\u641c\"><i class=\"c-icon\">\ue687</i><i class=\"c-icon arrow\">\ue613</i></div>",
+                                    "target": [
+                                        ".title-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<i class=\"c-icon refresh-icon\">\ue619</i>",
+                                    "target": [
+                                        ".refresh-icon"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"hot-refresh-text\">\u6362\u4e00\u6362</span>",
+                                    "target": [
+                                        ".hot-refresh-text"
+                                    ]
+                                },
+                                {
+                                    "html": "<i class=\"c-icon title-content-top-icon c-color-red c-gap-right-small\" style=\"display: ;\">\ue62e</i>",
+                                    "target": [
+                                        "li[data-index=\"\\30 \"] > .title-content.c-link.c-line-clamp1 > .title-content-top-icon.c-color-red.c-gap-right-small"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-title\">\u4e60\u8fd1\u5e73\u65f6\u9694\u516d\u5e74\u518d\u8bbf\u7f8e\u56fd</span>",
+                                    "target": [
+                                        "li[data-index=\"\\30 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot3\" style=\"display: ;\">3</span>",
+                                    "target": [
+                                        ".c-index-single-hot3"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-title\">\u5c11\u5e74\u5f3a\u3001\u9752\u5e74\u5f3a\u5219\u4e2d\u56fd\u5f3a</span>",
+                                    "target": [
+                                        "li[data-index=\"\\33 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot1\" style=\"display: ;\">1</span>",
+                                    "target": [
+                                        ".c-index-single-hot1"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-title\">\u4e2d\u7f8e\u5143\u9996\u4f1a\u6664\u5373\u5c06\u4e3e\u884c</span>",
+                                    "target": [
+                                        "li[data-index=\"\\31 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot4\" style=\"display: ;\">4</span>",
+                                    "target": [
+                                        ".c-index-single-hot4"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-title\">\u5927\u7ea640%\u7684\u764c\u75c7\u53ef\u4ee5\u907f\u514d</span>",
+                                    "target": [
+                                        "li[data-index=\"\\34 \"] > .tag-width.title-content.c-link > .title-content-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-mark ie-vertical c-text c-gap-left-small c-text-hot\">\u70ed</span>",
+                                    "target": [
+                                        "li[data-index=\"\\34 \"] > .c-text-hot.title-content-mark.ie-vertical"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot2\" style=\"display: ;\">2</span>",
+                                    "target": [
+                                        ".c-index-single-hot2"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-title\">\u4e2d\u7f8e\u5143\u9996\u4f1a\u6664\u9884\u8ba1\u65f6\u957f3\u52304\u5c0f\u65f6</span>",
+                                    "target": [
+                                        "li[data-index=\"\\32 \"] > .tag-width.title-content.c-link > .title-content-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-mark ie-vertical c-text c-gap-left-small c-text-hot\">\u70ed</span>",
+                                    "target": [
+                                        "li[data-index=\"\\32 \"] > .c-text-hot.title-content-mark.ie-vertical"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-index c-index-single c-index-single-hot5\" style=\"display: ;\">5</span>",
+                                    "target": [
+                                        ".c-index-single-hot5"
+                                    ]
+                                },
+                                {
+                                    "html": "<span class=\"title-content-title\">\u7f8e\u52a0\u5dde\u5e02\u957f\uff1a\u6211\u4eec\u628a\u4e2d\u56fd\u5f53\u5144\u5f1f</span>",
+                                    "target": [
+                                        "li[data-index=\"\\35 \"] > .title-content.c-link.c-line-clamp1 > .title-content-title"
+                                    ]
+                                },
+                                {
+                                    "html": "<img class=\"icon\" src=\"https://pss.bdstatic.com/static/superman/img/qrcode/qrcode@2x-daf987ad02.png\">",
+                                    "target": [
+                                        ".icon"
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "failureSummary": "Fix any of the following:\n  Some page content is not contained by landmarks",
+                    "html": "<html>",
+                    "impact": "moderate",
+                    "none": [],
+                    "target": [
+                        "html"
+                    ]
+                }
+            ],
+            "tags": [
+                "cat.keyboard",
+                "best-practice"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+[
+    {
+        "description": "Ensures role attribute has an appropriate value for the element",
+        "impact": "minor",
+        "tags": [
+            "cat.aria",
+            "best-practice"
+        ],
+        "num_nodes_violated": 3
+    },
+    {
+        "description": "Ensures every id attribute value is unique",
+        "impact": "minor",
+        "tags": [
+            "cat.parsing",
+            "wcag2a",
+            "wcag411"
+        ],
+        "num_nodes_violated": 12
+    },
+    {
+        "description": "Ensures <meta name=\"viewport\"> can scale a significant amount",
+        "impact": "minor",
+        "tags": [
+            "cat.sensory-and-visual-cues",
+            "best-practice"
+        ],
+        "num_nodes_violated": 1
+    }
+]
